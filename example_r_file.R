@@ -6,4 +6,4 @@ library(tidyverse)
 library(ggplot2)
 
 
-mtcars
+mtcars %>% head()
