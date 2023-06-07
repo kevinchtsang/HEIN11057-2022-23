@@ -5,6 +5,7 @@
 # Library imports
 library(tidyverse)
 library(ggplot2)
+library(knitr)
 
 # Import mtcars dataset
 mtcars_raw <- mtcars 
@@ -41,4 +42,9 @@ mpg_cyl_boxplot <- ggplot(mtcars_proc, aes(x=cyl, y=mpg, fill=cyl)) +
 mpg_cyl_boxplot
 
 # To do - Additional data processing and visualizations
+
+# Linear regression
+lm = lm(formula = mpg ~ ., data = mtcars_proc)
+summary(lm)
+
 
