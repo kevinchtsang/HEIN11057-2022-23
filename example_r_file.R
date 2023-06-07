@@ -29,3 +29,5 @@ mtcars <- mtcars %>%
 ggplot(mtcars, aes(wt, mpg, color = fcyl)) +
   geom_point() +
   stat_smooth(method = "lm", se = FALSE)
+
+mtcars %>%
