@@ -2,9 +2,9 @@
 
 HEIN11057 - Research design in health and social care 2022-2023 week 8
 
-## Project Title 
+## Project Description
 
-mtcars dataset
+mtcars dataset and other variables
 
 ## Project Description 
 
