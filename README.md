@@ -24,3 +24,6 @@ This project uses snake_case naming for folders and files.
 ## Code naming structure
 
 This project uses snake_case naming for variables, and table column names.
+
+#Adding plots
+This project should also have some visualisations
