@@ -12,35 +12,21 @@ The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel
 
 ## Data Dictionary
 
-+---------------+-------------+------------------------------+
+
 | Variable name | Data type   | Description                  |
-+===============+=============+==============================+
+|---|---|---|
 | mpg           | double      | Miles/(US) gallon            |
-+---------------+-------------+------------------------------+
 | cyl           | integer     | Number of cylinders          |
-+---------------+-------------+------------------------------+
 | disp          | double      | Displacement (cu.in.)        |
-+---------------+-------------+------------------------------+
 | hp            | double      | Gross horsepower             |
-+---------------+-------------+------------------------------+
 | drat          | double      | Rear axle ratio              |
-+---------------+-------------+------------------------------+
 | wt            | double      | Weight (1000 lbs)            |
-+---------------+-------------+------------------------------+
 | qsec          | double      | 1/4 mile time                |
-+---------------+-------------+------------------------------+
-| vs            | categorical | Engine                       |
-|               |             |                              |
-|               |             | (0 = V-shaped, 1 = straight) |
-+---------------+-------------+------------------------------+
-| am            | categorical | Transmission                 |
-|               |             |                              |
-|               |             | (0 = automatic, 1 = manual)  |
-+---------------+-------------+------------------------------+
+| vs            | categorical | Engine (0 = V-shaped, 1 = straight) |
+| am            | categorical | Transmission(0 = automatic, 1 = manual)  |
 | gear          | integer     | Number of forward gears      |
-+---------------+-------------+------------------------------+
 | carb          | integer     | Number of carburetors        |
-+---------------+-------------+------------------------------+
+
 
 # Contributing Guidelines
 
